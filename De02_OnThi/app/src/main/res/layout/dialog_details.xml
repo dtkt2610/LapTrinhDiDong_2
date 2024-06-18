@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin sản phẩm"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/tvMaSp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Mã sản phẩm: "
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edtMaSp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ma sp"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/tvTenSp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm: "
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edtTenSp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten sp"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/tvGiaSp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Mã giá phẩm: "
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/edtGiaSp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhap gia sp"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:gravity="end">
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="XÓA"
+            android:textSize="30sp"
+            android:background="@android:color/holo_blue_light"
+            />
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:textSize="30sp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
